@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
     <link rel="stylesheet" href='/css/style.css'>
+    <link rel="stylesheet" href='/css/graph.css'>
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Ubuntu" rel="stylesheet">
+    <script src="/js/graph.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <header>
@@ -68,52 +72,23 @@
 
 <footer class="container">
     <div class="row">
-        <ul class="col-md-3">
-            <li><h3><a href="/particulier" class="title-prefooter-lvl1">Particulier</a></h3></li>
-
+        <ul class="col-md-6 text-center">
+            <li><a href="/contactus">Qui sommes nous ?</a></li>
             <li><a href="/contactus">Nous contacter</a></li>
+            <li><a href="/pds">Plan du site</a></li>
+
+
+        </ul>
+        <ul class="col-md-6 text-center">
+            <li><a href="/ml">Mentions Légales</a></li>
             <li><a href="/faq">F.A.Q.</a></li>
             <li><a href="/cgu">C.G.U.</a></li>
 
-        </ul>
-        <ul class="col-md-3">
-            <li><h3><a href="/entreprise-et-professionnel" class="title-prefooter-lvl1">Entreprise et Professionnel</a></h3>
-            <li><a href="/demarches-0">Démarches</a></li>
-            <li><a href="/relations-avec-erdf">Relations avec Enedis</a></li>
-            <li><a href="/services-0">Services gratuits</a></li>
-            <li><a href="/vigilance-entreprise-et-professionnel">Vigilance</a></li>
-            <li><a href="/relations-avec-votre-fournisseur-delectricite">Relations avec fournisseur</a></li>
-            <li><a href="/donnees-du-reseau-0">Données du réseau</a></li>
-        </ul>
-        <ul class="col-md-3">
 
-            <li><h3><a href="/collectivite-locale%20" class="title-prefooter-lvl1">Collectivité locale</a></h3>
-           <li><a href="/raccorder-un-batiment">Raccorder un bâtiment</a></li>
-           <li><a href="/relations-avec-erdf-0">Relations avec Enedis</a></li>
-           <li><a href="/lexpertise-erdf">L'expertise Enedis</a></li>
-           <li><a href="/reduire-les-risques-electriques-0">Risques électriques</a></li>
-           <li><a href="/relations-avec-le-fournisseur-delectricite">Relations avec fournisseur</a></li>
-           <li><a href="/demarches-2">Démarches</a></li>
-        </ul>
-        <ul class="col-md-3">
-            <li><h3><a href="/professionnel-du-batiment" class="title-prefooter-lvl1">Professionnel du bâtiment</a></h3></li>
-
-            <li><a href="/raccorder-un-batiment-neuf">Raccorder un bâtiment neuf</a></li>
-            <li><a href="/raccorder-un-logement-collectif">Raccorder un logement collectif</a></li>
-            <li><a href="/alimenter-un-batiment-existant">Alimenter un bâtiment existant</a></li>
-            <li><a href="/reduire-les-risques-electriques">Réduire les risques électriques</a></li>
-        </ul>
-        <ul class="col-md-3">
-            <!-- <li><h3><a href="/acteurs-du-marche" class="title-prefooter-lvl1">Acteur du marché</a></h3></li>
-            <li><a href="/marche-de-lelectricite">Marché de l'électricité</a></li>
-            <li><a href="/fournisseurs-delectricite">Fournisseurs d'électricité</a></li>
-            <li><a href="/producteurs-delectricite">Producteurs d'électricité</a></li>
-            <li><a href="/acteurs-du-systeme-electrique">Acteurs système électrique</a></li>
-            <li><a href="/fournisseurs-derdf">Fournisseurs d'Enedis</a></li>
-            <li><a href="/donnees-du-reseau-2">Données du réseau</a></li> -->
         </ul>
     </div>
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

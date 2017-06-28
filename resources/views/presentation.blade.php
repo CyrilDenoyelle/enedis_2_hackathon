@@ -4,38 +4,55 @@
 <main>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12" id="slider">
-                <!-- slider -->
-                <div class="row">
-                    <div class="col-sm-12" id="carousel-bounding-box">
-                        <div class="carousel slide" id="myCarousel">
-                            <!-- Carousel items -->
-                            <div class="carousel-inner">
-                                <div class="active item" data-slide-number="0">
-                                    <p>Ce site vous permet de connaitre votre consommation  en Euros. L'information vous permet de suivre  votre  consommation precedente.</p>
-                                </div>
-                                <div class="item" data-slide-number="1">
-                                    <p>Access simplifié a votre consommation en €</p>
-                                </div>
-                                <div class="item" data-slide-number="2">
-                                    <p>Connaître leur consommation actuelle en euro du jour, de la semaine, du mois, ou de l'année</p>
-                                </div>
-                                <div class="item" data-slide-number="3">
-                                    <p>Vous aide à mieux gérer  la consommation de votre énérgie.</p>
-                                </div>
-                            </div><!-- Carousel nav -->
-                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
-                            </a>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        <p>Savez-vous combien vous dépensez <br>actuellement en énergie électrique ? </p>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <i class="glyphicon glyphicon-ok" aria-hidden="true"></i>
+                        <p>Pour le savoir : <br>Enregistrez-vous</p>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa fa-tachometer" aria-hidden="true"></i>
+                        <p>Notre compteur vous montre <br>où vous vous situez</p>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></i>
+                            <p>Visualisez <br>vos économies</p>
+                        <div class="carousel-caption">
                         </div>
                     </div>
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <button id="buttonlog" type="button" name="button">s'inscrire</button>
-        </div><!--/Slider-->
     </div>
 </main>
 @endsection
