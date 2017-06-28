@@ -2,18 +2,13 @@
 
 @section('content')
 
-<div class="container">
-  <div class="row">
-  <h1>Graphique de consommation bimensuel en Euro</h1>
-  <h3>Prix en euro HT / KWh</h3>
-</div>
-</div>
 
 <div class="container">
   <div class="row thegraph">
-      <h2>Graphique de consommation bimensuelle <br>
-           sur les 3 dernières années</h2>
 
+
+      <h2 >Graphique de consommation bimensuel en Euro</h2>
+      <h3>Prix en euro HT / KWh</h3>
     <div id="graph">
       200<br /> <br /> <br /> 100 <br /> <br /> <br /> 50 <br /> <br /> <br /> 0
     <ul>
