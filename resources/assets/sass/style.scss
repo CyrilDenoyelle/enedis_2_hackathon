@@ -1,5 +1,7 @@
+@import "base.scss";
 body {
     header {
+
         img {
             width: 6em;
         }
@@ -68,8 +70,32 @@ body {
             text-align: center;
             font-size: 3rem;
             vertical-align: middle;
-            font-family: 'Dancing Script', cursive;
+            font-family: $font1;
+            // font-family: 'Dancing Script', cursive;
         }
 
+    }
+    #buttonlog {
+        color : white;
+        font-family: $font1;
+        background-color: $color2;
+        border-radius: 10px;
+        padding: 1em 2em;
+        border: none;
+        text-transform : uppercase;
+        margin: 2em;
+        font-weight: bold;
+        margin: 2em auto;
+    }
+    footer {
+
+        ul {
+            li{
+                list-style-type: none;
+                a {
+                    color: black;
+                }
+            }
+        }
     }
 }
