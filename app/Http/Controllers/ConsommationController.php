@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Consommation;
 
-class ExampleController extends Controller
+class ConsommationController extends Controller
 {
     /**
      * Create a new controller instance.
