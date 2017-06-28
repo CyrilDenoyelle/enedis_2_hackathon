@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Consomation;
+use App\Consommation;
 
 class ExampleController extends Controller
 {
@@ -13,10 +13,15 @@ class ExampleController extends Controller
      */
     public function index()
     {
-        $consomations = Consomation::all();
-        $hauteur = 50;
-        // $hauteur = $hauteur*.1;
-        return view('conso', compact('consomations', 'hauteur'));
+        $consommations = Consommation::all();
+        $consototal = 0;
+        foreach ($consommations as $consommation) {
+            if(explode('-', $consommation->temps)[0].'-'.explode('-', $consommation->temps)[1] == '2013-07'){
+                $consototal += $consommation->consoKWH;
+            }
+        }
+        $consototal /= 2;
+        return view('conso', compact('consommations', 'consototal'));
     }
 
     //
