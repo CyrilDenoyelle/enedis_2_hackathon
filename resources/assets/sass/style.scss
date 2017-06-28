@@ -4,6 +4,7 @@ body {
         img {
             width: 6em;
         }
+
         #login-dp{
             min-width: 250px;
             padding: 14px 14px 0;
@@ -27,6 +28,10 @@ body {
             .form-group {
                 margin-bottom: 10px;
             }
+        }
+        .navbar {
+            margin-bottom: 1px;
+            padding: 0.5em;
         }
         @media(max-width:768px){
             #login-dp{
@@ -75,6 +80,20 @@ body {
             .carousel-control.right {
                 background-image: none
             }
+            @media(max-width:768px){
+                .item{
+                    i {
+                        font-size: 2.5em;
+                    }
+                    padding: 3em;
+                    margin: auto;
+                    text-align: center;
+                    font-size: 1.5em;
+                    vertical-align: middle;
+                    font-family: $font1;
+                    color: white;
+                }
+            }
         }
         #buttonlog {
             color : white;
@@ -97,6 +116,7 @@ body {
                 list-style-type: none;
                 a {
                     color: $color1;
+                    font-family : $font1;
                 }
             }
         }

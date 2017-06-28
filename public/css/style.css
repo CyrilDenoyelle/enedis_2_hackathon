@@ -18,6 +18,9 @@ body header #login-dp {
     width: 49%; }
   body header #login-dp .form-group {
     margin-bottom: 10px; }
+body header .navbar {
+  margin-bottom: 1px;
+  padding: 0.5em; }
 @media (max-width: 768px) {
   body header #login-dp {
     background-color: inherit;
@@ -53,6 +56,17 @@ body main {
     body main #myCarousel .carousel-control.left,
     body main #myCarousel .carousel-control.right {
       background-image: none; }
+    @media (max-width: 768px) {
+      body main #myCarousel .item {
+        padding: 3em;
+        margin: auto;
+        text-align: center;
+        font-size: 1.5em;
+        vertical-align: middle;
+        font-family: "Ubuntu", sans-serif;
+        color: white; }
+        body main #myCarousel .item i {
+          font-size: 2.5em; } }
   body main #buttonlog {
     color: white;
     font-family: "Ubuntu", sans-serif;
@@ -69,6 +83,7 @@ body footer {
   body footer ul li {
     list-style-type: none; }
     body footer ul li a {
-      color: #3B5999; }
+      color: #3B5999;
+      font-family: "Ubuntu", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
