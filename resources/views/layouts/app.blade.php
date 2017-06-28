@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
     <link rel="stylesheet" href='/css/style.css'>
+
+    <link rel="stylesheet" href='/css/graph.css'>
+
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Ubuntu" rel="stylesheet">
+
+    <script src="/js/graph.js"></script>
+
 </head>
 <body>
     <header>
