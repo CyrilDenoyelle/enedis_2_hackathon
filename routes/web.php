@@ -27,4 +27,4 @@ Route::get('/key', function() {
     return str_random(32);
 });
 
-Route::get('/conso', 'ExampleController@index');
+Route::get('/conso', 'ConsommationController@index');
