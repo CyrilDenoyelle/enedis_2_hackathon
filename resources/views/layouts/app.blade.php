@@ -67,7 +67,10 @@
  </nav>
 </header>
 <body>
+    <main>
     @yield('content')
+
+    </main>
 </body>
 
 <footer class="container">

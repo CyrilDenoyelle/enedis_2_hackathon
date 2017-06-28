@@ -2,13 +2,14 @@
 
 @section('content')
 
-<h1>Graphique de consommation bimensuelle sur les 3 dernières années</h1>
 
 <!-- <div style='width: 25px;height: 20px; background-color: red; transition: 2s'></div> -->
 
 
 <div class="container">
-  <div class="row">
+  <div class="row thegraph">
+      <h2>Graphique de consommation bimensuelle <br>
+           sur les 3 dernières années</h2>
 
     <div id="graph">
       200<br /> <br /> <br /> 100 <br /> <br /> <br /> 50 <br /> <br /> <br /> 0
