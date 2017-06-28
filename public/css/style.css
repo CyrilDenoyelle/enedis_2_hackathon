@@ -18,18 +18,6 @@ body header #login-dp {
     width: 49%; }
   body header #login-dp .form-group {
     margin-bottom: 10px; }
-body header .btn-fb {
-  color: #fff;
-  background-color: #3b5998; }
-body header .btn-fb:hover {
-  color: #fff;
-  background-color: #496ebc; }
-body header .btn-tw {
-  color: #fff;
-  background-color: #55acee; }
-body header .btn-tw:hover {
-  color: #fff;
-  background-color: #59b5fa; }
 @media (max-width: 768px) {
   body header #login-dp {
     background-color: inherit;
@@ -37,30 +25,44 @@ body header .btn-tw:hover {
   body header #login-dp .bottom {
     background-color: inherit;
     border-top: 0 none; } }
-body .hide-bullets {
-  list-style: none;
-  margin-left: -40px;
-  margin-top: 20px; }
-body #myCarousel {
-  min-height: 24em; }
-  body #myCarousel p {
-    padding: 3em;
-    margin: auto;
-    text-align: center;
-    font-size: 3rem;
-    vertical-align: middle;
-    font-family: "Ubuntu", sans-serif; }
-body #buttonlog {
-  color: white;
-  font-family: "Ubuntu", sans-serif;
-  background-color: #CEDC00;
-  border-radius: 10px;
-  padding: 1em 2em;
-  border: none;
-  text-transform: uppercase;
-  margin: 2em;
-  font-weight: bold;
-  margin: 2em auto; }
+body main {
+  background-color: #3B5999; }
+  body main .hide-bullets {
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 20px; }
+  body main #myCarousel {
+    background-color: #3B5999;
+    margin: 6em auto;
+    min-height: 24em; }
+    body main #myCarousel .carousel-inner {
+      background-color: #3B5999; }
+    body main #myCarousel .item {
+      padding: 3em;
+      margin: auto;
+      text-align: center;
+      font-size: 3rem;
+      vertical-align: middle;
+      font-family: "Ubuntu", sans-serif;
+      color: white; }
+      body main #myCarousel .item i {
+        font-size: 3em; }
+    body main #myCarousel .carousel-indicators li {
+      background-color: #3B5999; }
+    body main #myCarousel .carousel-control.left,
+    body main #myCarousel .carousel-control.right {
+      background-image: none; }
+  body main #buttonlog {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #CEDC00;
+    border-radius: 10px;
+    padding: 1em 2em;
+    border: none;
+    text-transform: uppercase;
+    margin: 2em;
+    font-weight: bold;
+    margin: 2em auto; }
 body footer ul li {
   list-style-type: none; }
   body footer ul li a {

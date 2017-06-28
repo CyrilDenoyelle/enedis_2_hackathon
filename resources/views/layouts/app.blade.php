@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
     <link rel="stylesheet" href='/css/style.css'>
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -114,6 +115,7 @@
         </ul>
     </div>
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

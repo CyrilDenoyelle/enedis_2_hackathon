@@ -1,7 +1,6 @@
 @import "base.scss";
 body {
     header {
-
         img {
             width: 6em;
         }
@@ -29,22 +28,6 @@ body {
                 margin-bottom: 10px;
             }
         }
-        .btn-fb{
-            color: #fff;
-            background-color:#3b5998;
-        }
-        .btn-fb:hover{
-            color: #fff;
-            background-color:#496ebc
-        }
-        .btn-tw{
-            color: #fff;
-            background-color:#55acee;
-        }
-        .btn-tw:hover{
-            color: #fff;
-            background-color:#59b5fa;
-        }
         @media(max-width:768px){
             #login-dp{
                 background-color: inherit;
@@ -57,35 +40,55 @@ body {
         }
 
     }
-    .hide-bullets {
-        list-style:none;
-        margin-left: -40px;
-        margin-top:20px;
-    }
-    #myCarousel {
-        min-height: 24em;
-        p{
-            padding: 3em;
-            margin: auto;
-            text-align: center;
-            font-size: 3rem;
-            vertical-align: middle;
+    main {
+        background-color: $color1;
+
+        .hide-bullets {
+            list-style:none;
+            margin-left: -40px;
+            margin-top:20px;
+        }
+        #myCarousel {
+            height: 80vh;
+            background-color: $color1;
+            margin: 6em auto;
+            min-height: 24em;
+            .carousel-inner {
+                background-color: $color1;
+            }
+            .item{
+                i {
+                    font-size: 3em;
+                }
+                padding: 3em;
+                margin: auto;
+                text-align: center;
+                font-size: 3rem;
+                vertical-align: middle;
+                font-family: $font1;
+                color: white;
+            }
+            .carousel-indicators li {
+                background-color: $color1;
+            }
+            .carousel-control.left,
+            .carousel-control.right {
+                background-image: none
+            }
+        }
+        #buttonlog {
+            color : white;
             font-family: $font1;
-            // font-family: 'Dancing Script', cursive;
+            background-color: $color2;
+            border-radius: 10px;
+            padding: 1em 2em;
+            border: none;
+            text-transform : uppercase;
+            margin: 2em;
+            font-weight: bold;
+            margin: 2em auto;
         }
 
-    }
-    #buttonlog {
-        color : white;
-        font-family: $font1;
-        background-color: $color2;
-        border-radius: 10px;
-        padding: 1em 2em;
-        border: none;
-        text-transform : uppercase;
-        margin: 2em;
-        font-weight: bold;
-        margin: 2em auto;
     }
     footer {
 
