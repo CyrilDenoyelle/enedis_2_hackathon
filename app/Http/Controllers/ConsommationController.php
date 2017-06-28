@@ -23,6 +23,5 @@ class ConsommationController extends Controller
         $consototal /= 2;
         return view('conso', compact('consommations', 'consototal'));
     }
-
     //
 }

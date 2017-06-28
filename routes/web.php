@@ -27,4 +27,7 @@ Route::get('/key', function() {
     return str_random(32);
 });
 
+Route::get('/gauge', 'GaugeController@index');
+
 Route::get('/conso', 'ConsommationController@index');
+Route::get('/compare', 'ComparaisonController@index');

@@ -1,0 +1,19 @@
+#compteur, #aiguille, #compteurspan {
+	/*border: solid black;*/
+	position: absolute;
+	left: 40vw;
+	margin: auto -175px;
+	transition: 2s;
+}
+
+#gaugecontainer {
+	height: 60vh;
+	margin: auto 20%;
+}
+
+#compteurspan {
+	top: 350px;
+	left: 50vw;
+	color: white;
+
+}
