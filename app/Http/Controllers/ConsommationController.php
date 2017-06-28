@@ -84,5 +84,5 @@ class ConsommationController extends Controller
         return view('conso', compact('consommations', 'consototalJuil13', 'consototalAout13' , 'consototalJuil14', 'consototalAout14', 'consototalJuil15', 'consototalAout15'));
     }
 
-    //
+
 }

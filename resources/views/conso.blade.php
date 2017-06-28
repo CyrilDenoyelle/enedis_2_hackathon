@@ -2,9 +2,12 @@
 
 @section('content')
 
-
-<!-- <div style='width: 25px;height: 20px; background-color: red; transition: 2s'></div> -->
-
+<div class="container">
+  <div class="row">
+  <h1>Graphique de consommation bimensuel en Euro</h1>
+  <h3>Prix en euro HT / KWh</h3>
+</div>
+</div>
 
 <div class="container">
   <div class="row thegraph">
