@@ -15,7 +15,6 @@ h2, h3 {
     font-style: 'Ubuntu', sans-serif;
     text-align: center;
 }
-<<<<<<< HEAD
 
 #graph ul {
     position: absolute;
@@ -25,21 +24,21 @@ h2, h3 {
     height: 200px;
     border-left: 3px solid white;
     border-bottom: 3px solid white;
-=======
+}
+
 .gaugecontainer {
     margin: auto;
     width: auto;
 }
-#graph ul
-{
-    position:absolute;
-    top:0;
-    left:32px;
-    width:600px;
-    height:200px;
-    border-left:3px solid white;
-    border-bottom:3px solid white;
->>>>>>> 0c6b20001d74efc66ac02d689cebfe6fb5d1bfda
+
+#graph ul {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    width: 600px;
+    height: 200px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 #graph li {
