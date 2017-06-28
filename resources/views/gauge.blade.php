@@ -10,7 +10,8 @@
 	<span id='compteurspan' style=''>{{ $spaneuro }}€/h</span>
 </div>
 </main>
-<a class="btn btn-primary btn-block" href='/conso'>conso</a>
+
+<a class="btn btn-primary btn-block" href='/conso'>consommation bimensuel </a>
 
 @endsection
 
