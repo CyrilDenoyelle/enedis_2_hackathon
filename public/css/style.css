@@ -32,6 +32,7 @@ body main {
     margin-left: -40px;
     margin-top: 20px; }
   body main #myCarousel {
+    height: 80vh;
     background-color: #3B5999;
     margin: 6em auto;
     min-height: 24em; }
@@ -63,9 +64,11 @@ body main {
     margin: 2em;
     font-weight: bold;
     margin: 2em auto; }
-body footer ul li {
-  list-style-type: none; }
-  body footer ul li a {
-    color: black; }
+body footer {
+  padding: 2em; }
+  body footer ul li {
+    list-style-type: none; }
+    body footer ul li a {
+      color: #3B5999; }
 
 /*# sourceMappingURL=style.css.map */

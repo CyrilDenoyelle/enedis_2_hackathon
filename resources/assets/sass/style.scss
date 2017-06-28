@@ -91,12 +91,12 @@ body {
 
     }
     footer {
-
+        padding: 2em;
         ul {
             li{
                 list-style-type: none;
                 a {
-                    color: black;
+                    color: $color1;
                 }
             }
         }
