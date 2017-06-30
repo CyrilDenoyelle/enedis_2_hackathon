@@ -10,7 +10,6 @@
       <h2 >Graphique de consommation bimensuel en Euro</h2>
       <h3>Prix en euro HT / KWh</h3>
     <div id="graph">
-      200<br /> <br /> <br /> 100 <br /> <br /> <br /> 50 <br /> <br /> <br /> 0
     <ul>
         <li>{{ $consototalJuil13 }}:07-13:white</li>
         <li>{{ $consototalAout13 }}:08-13:white</li>

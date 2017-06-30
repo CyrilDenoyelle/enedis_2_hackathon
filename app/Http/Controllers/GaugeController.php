@@ -16,7 +16,7 @@ class GaugeController extends Controller
     {
         $consommations = Consommation::all();
         $consommation = ($consommations[floor(rand(0, count($consommations)))]->consoKWH/800)*360;
-        $spaneuro = $consommation*.1;
+        $spaneuro = $consommation*.02;
         if($consommation > 235){
             $consommation = 235;
         }
